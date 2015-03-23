@@ -34,6 +34,7 @@
             this.btn_start = new System.Windows.Forms.Button();
             this.tmr = new System.Windows.Forms.Timer(this.components);
             this.btn_stop = new System.Windows.Forms.Button();
+            this.nxt_btn2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbl_mvr
@@ -45,7 +46,7 @@
             this.lbl_mvr.Name = "lbl_mvr";
             this.lbl_mvr.Size = new System.Drawing.Size(674, 347);
             this.lbl_mvr.TabIndex = 0;
-            this.lbl_mvr.Text = "ANON";
+            this.lbl_mvr.Text = "Anon";
             // 
             // btn_start
             // 
@@ -60,6 +61,7 @@
             // 
             // tmr
             // 
+            this.tmr.Interval = 200;
             this.tmr.Tick += new System.EventHandler(this.tmr_Tick);
             // 
             // btn_stop
@@ -73,11 +75,23 @@
             this.btn_stop.UseVisualStyleBackColor = true;
             this.btn_stop.Click += new System.EventHandler(this.btn_stop_Click);
             // 
+            // nxt_btn2
+            // 
+            this.nxt_btn2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nxt_btn2.Location = new System.Drawing.Point(788, 470);
+            this.nxt_btn2.Name = "nxt_btn2";
+            this.nxt_btn2.Size = new System.Drawing.Size(58, 53);
+            this.nxt_btn2.TabIndex = 3;
+            this.nxt_btn2.Text = ">";
+            this.nxt_btn2.UseVisualStyleBackColor = true;
+            this.nxt_btn2.Click += new System.EventHandler(this.nxt_btn2_Click);
+            // 
             // TextMover
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(824, 501);
+            this.ClientSize = new System.Drawing.Size(867, 549);
+            this.Controls.Add(this.nxt_btn2);
             this.Controls.Add(this.btn_stop);
             this.Controls.Add(this.btn_start);
             this.Controls.Add(this.lbl_mvr);
@@ -93,5 +107,6 @@
         private System.Windows.Forms.Button btn_start;
         private System.Windows.Forms.Timer tmr;
         private System.Windows.Forms.Button btn_stop;
+        private System.Windows.Forms.Button nxt_btn2;
     }
 }

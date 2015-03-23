@@ -33,7 +33,7 @@
             this.frmtb = new System.Windows.Forms.TextBox();
             this.totb = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.nxt_btn1 = new System.Windows.Forms.Button();
             this.rstb = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
@@ -84,16 +84,16 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // nxt_btn1
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(790, 408);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(60, 45);
-            this.button2.TabIndex = 6;
-            this.button2.Text = ">";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.nxt_btn1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nxt_btn1.Location = new System.Drawing.Point(790, 408);
+            this.nxt_btn1.Name = "nxt_btn1";
+            this.nxt_btn1.Size = new System.Drawing.Size(60, 45);
+            this.nxt_btn1.TabIndex = 6;
+            this.nxt_btn1.Text = ">";
+            this.nxt_btn1.UseVisualStyleBackColor = true;
+            this.nxt_btn1.Click += new System.EventHandler(this.button2_Click);
             // 
             // rstb
             // 
@@ -109,7 +109,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(881, 474);
             this.Controls.Add(this.rstb);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.nxt_btn1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.totb);
             this.Controls.Add(this.frmtb);
@@ -129,7 +129,7 @@
         private System.Windows.Forms.TextBox frmtb;
         private System.Windows.Forms.TextBox totb;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button nxt_btn1;
         private System.Windows.Forms.TextBox rstb;
     }
 }

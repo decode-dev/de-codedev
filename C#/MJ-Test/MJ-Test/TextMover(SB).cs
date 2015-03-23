@@ -7,17 +7,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Globalization;
 
 namespace MJ_Test
 {
-    public partial class TextMover : Form
+    public partial class TextMover_SB : Form
     {
         int i;
-        public TextMover()
+        public TextMover_SB()
         {
             InitializeComponent();
         }
-        
+        private bool _tmr_running = false;
         int[] x =
         {
                      (int)ContentAlignment.BottomRight,
@@ -29,35 +30,32 @@ namespace MJ_Test
                      (int)ContentAlignment.TopRight,
                      (int)ContentAlignment.TopLeft,
                  };
-        
 
-        private void button1_Click(object sender, EventArgs e)
+        private void strt_btn_Click(object sender, EventArgs e)
         {
-            tmr.Enabled = true;
-            
+            if(!_tmr_running )
+            {
+                tmr_sb.Start();
+                _tmr_running = true;
+            }
+            else
+            {
+                tmr_sb.Stop();
+                _tmr_running = false;
+            }
+
         }
 
-        private void btn_stop_Click(object sender, EventArgs e)
+        private void tmr_sb_Tick(object sender, EventArgs e)
         {
-            tmr.Enabled = false;
-        }
-
-        private void tmr_Tick(object sender, EventArgs e)
-        {
-           
             i = i + 1;
-            if(i==8)
+            if (i == 8)
             {
                 i = 0;
             }
-            lbl_mvr.TextAlign = (ContentAlignment)x[i];
-        }
 
-        private void nxt_btn2_Click(object sender, EventArgs e)
-        {
-            TextMover_SB tms=new TextMover_SB();
-            tms.Show();
-            Hide();
+            pic_lbl.Text = "The Matrix has you..." + "\r\t\n" + "Follow the White Rabbit..." + "\r\t\n" + "Knock knock, Neo.";
+            pic_lbl.TextAlign = (ContentAlignment)x[i];
         }
     }
 }

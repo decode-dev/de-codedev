@@ -25,7 +25,7 @@ namespace MJ_Test
             for (int i = 1; i <= rng; i++)
             {
                 int rst = num * i;
-                multb.Text+=(num+"x"+i+"="+rst+";");
+                multb.Text+=(num+"x"+i+"="+rst+"\r\n");
             }
             
         }

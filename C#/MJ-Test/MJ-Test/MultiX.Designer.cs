@@ -34,7 +34,7 @@
             this.lbl2 = new System.Windows.Forms.Label();
             this.rngtb = new System.Windows.Forms.TextBox();
             this.multb = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.nxt_btn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbl1
@@ -87,26 +87,27 @@
             this.multb.Location = new System.Drawing.Point(42, 192);
             this.multb.Multiline = true;
             this.multb.Name = "multb";
+            this.multb.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.multb.Size = new System.Drawing.Size(836, 250);
             this.multb.TabIndex = 6;
             // 
-            // button1
+            // nxt_btn
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(804, 448);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(39, 43);
-            this.button1.TabIndex = 7;
-            this.button1.Text = ">";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.nxt_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nxt_btn.Location = new System.Drawing.Point(804, 448);
+            this.nxt_btn.Name = "nxt_btn";
+            this.nxt_btn.Size = new System.Drawing.Size(39, 43);
+            this.nxt_btn.TabIndex = 7;
+            this.nxt_btn.Text = ">";
+            this.nxt_btn.UseVisualStyleBackColor = true;
+            this.nxt_btn.Click += new System.EventHandler(this.button1_Click);
             // 
             // MultiX
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(935, 503);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.nxt_btn);
             this.Controls.Add(this.multb);
             this.Controls.Add(this.rngtb);
             this.Controls.Add(this.lbl2);
@@ -129,6 +130,6 @@
         private System.Windows.Forms.Label lbl2;
         private System.Windows.Forms.TextBox rngtb;
         private System.Windows.Forms.TextBox multb;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button nxt_btn;
     }
 }

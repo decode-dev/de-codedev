@@ -12,3 +12,14 @@ C:\Users\Dikshit.iMac-Alienware\documents\visual studio 2013\Projects\MJ-Test\MJ
 C:\Users\Dikshit.iMac-Alienware\Source\Repos\de-codedev\C#\MJ-Test\MJ-Test\bin\Debug\MJ-Test.exe.config
 C:\Users\Dikshit.iMac-Alienware\Source\Repos\de-codedev\C#\MJ-Test\MJ-Test\obj\Debug\MJ-Test.exe
 C:\Users\Dikshit.iMac-Alienware\Source\Repos\de-codedev\C#\MJ-Test\MJ-Test\obj\Debug\MJ-Test.pdb
+C:\Users\Dikshit.iMac-Alienware\Documents\GitHub\de-codedev\C#\MJ-Test\MJ-Test\bin\Debug\MJ-Test.exe.config
+C:\Users\Dikshit.iMac-Alienware\Documents\GitHub\de-codedev\C#\MJ-Test\MJ-Test\obj\Debug\MJ-Test.exe
+C:\Users\Dikshit.iMac-Alienware\Documents\GitHub\de-codedev\C#\MJ-Test\MJ-Test\obj\Debug\MJ-Test.pdb
+C:\Users\Dikshit.iMac-Alienware\Documents\GitHub\de-codedev\C#\MJ-Test\MJ-Test\bin\Debug\MJ-Test.exe
+C:\Users\Dikshit.iMac-Alienware\Documents\GitHub\de-codedev\C#\MJ-Test\MJ-Test\bin\Debug\MJ-Test.pdb
+C:\Users\Dikshit.iMac-Alienware\Documents\GitHub\de-codedev\C#\MJ-Test\MJ-Test\obj\Debug\MJ-Test.csprojResolveAssemblyReference.cache
+C:\Users\Dikshit.iMac-Alienware\Documents\GitHub\de-codedev\C#\MJ-Test\MJ-Test\obj\Debug\MJ_Test.MultiX.resources
+C:\Users\Dikshit.iMac-Alienware\Documents\GitHub\de-codedev\C#\MJ-Test\MJ-Test\obj\Debug\MJ_Test.Range.resources
+C:\Users\Dikshit.iMac-Alienware\Documents\GitHub\de-codedev\C#\MJ-Test\MJ-Test\obj\Debug\MJ_Test.Properties.Resources.resources
+C:\Users\Dikshit.iMac-Alienware\Documents\GitHub\de-codedev\C#\MJ-Test\MJ-Test\obj\Debug\MJ_Test.TextMover.resources
+C:\Users\Dikshit.iMac-Alienware\Documents\GitHub\de-codedev\C#\MJ-Test\MJ-Test\obj\Debug\MJ-Test.csproj.GenerateResource.Cache
