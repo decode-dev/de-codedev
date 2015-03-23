@@ -1,0 +1,11 @@
+c:\users\dikshit.imac-alienware\documents\visual studio 2013\Projects\MJ-Test\MJ-Test\bin\Debug\MJ-Test.exe.config
+c:\Users\dikshit.imac-alienware\documents\visual studio 2013\Projects\MJ-Test\MJ-Test\obj\Debug\MJ-Test.csprojResolveAssemblyReference.cache
+c:\Users\dikshit.imac-alienware\documents\visual studio 2013\Projects\MJ-Test\MJ-Test\obj\Debug\MJ_Test.Properties.Resources.resources
+c:\Users\dikshit.imac-alienware\documents\visual studio 2013\Projects\MJ-Test\MJ-Test\obj\Debug\MJ-Test.csproj.GenerateResource.Cache
+c:\Users\dikshit.imac-alienware\documents\visual studio 2013\Projects\MJ-Test\MJ-Test\bin\Debug\MJ-Test.exe
+c:\Users\dikshit.imac-alienware\documents\visual studio 2013\Projects\MJ-Test\MJ-Test\bin\Debug\MJ-Test.pdb
+c:\Users\dikshit.imac-alienware\documents\visual studio 2013\Projects\MJ-Test\MJ-Test\obj\Debug\MJ-Test.exe
+c:\Users\dikshit.imac-alienware\documents\visual studio 2013\Projects\MJ-Test\MJ-Test\obj\Debug\MJ-Test.pdb
+c:\Users\dikshit.imac-alienware\documents\visual studio 2013\Projects\MJ-Test\MJ-Test\obj\Debug\MJ_Test.MultiX.resources
+c:\Users\dikshit.imac-alienware\documents\visual studio 2013\Projects\MJ-Test\MJ-Test\obj\Debug\MJ_Test.Range.resources
+C:\Users\Dikshit.iMac-Alienware\documents\visual studio 2013\Projects\MJ-Test\MJ-Test\obj\Debug\MJ_Test.TextMover.resources
