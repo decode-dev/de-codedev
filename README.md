@@ -1,2 +1,2 @@
 # de-codedev
-Experimenting with the Codes...
+Contains Projects worked on free time and playing around some functions,conrols and codes.
