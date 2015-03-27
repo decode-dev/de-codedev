@@ -35,6 +35,7 @@
             this.tmr = new System.Windows.Forms.Timer(this.components);
             this.btn_stop = new System.Windows.Forms.Button();
             this.nxt_btn2 = new System.Windows.Forms.Button();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.SuspendLayout();
             // 
             // lbl_mvr
@@ -86,6 +87,10 @@
             this.nxt_btn2.UseVisualStyleBackColor = true;
             this.nxt_btn2.Click += new System.EventHandler(this.nxt_btn2_Click);
             // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
+            // 
             // TextMover
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -108,5 +113,6 @@
         private System.Windows.Forms.Timer tmr;
         private System.Windows.Forms.Button btn_stop;
         private System.Windows.Forms.Button nxt_btn2;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
     }
 }

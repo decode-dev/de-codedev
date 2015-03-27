@@ -53,9 +53,23 @@ namespace MJ_Test
             {
                 i = 0;
             }
-
             pic_lbl.Text = "The Matrix has you..." + "\r\t\n" + "Follow the White Rabbit..." + "\r\t\n" + "Knock knock, Neo.";
             pic_lbl.TextAlign = (ContentAlignment)x[i];
+        }
+
+        private void pic_lbl1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void pic_l_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TextMover_SB_Load(object sender, EventArgs e)
+        {
+            
         }
     }
 }
