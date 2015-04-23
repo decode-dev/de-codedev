@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#424242"
+    android:orientation="vertical" 
+    >
+    
+    <ImageView
+        android:id="@+id/imgprev"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:maxHeight="200dp" />
+    
+    
+    <EditText
+        android:id="@+id/desc_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/imgprev"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="15dp"
+        android:hint="Description"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <Button
+        android:id="@+id/post_btn"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/desc_txt"
+        android:layout_centerHorizontal="true"
+        android:text="Post"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/itemView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rounded_corners" >
+    
+    <RelativeLayout android:id="@+id/rl" android:layout_width="match_parent" android:layout_height="wrap_content">
+        
+        <ImageView
+            android:id="@+id/profilepic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="4dp"
+            android:src="@drawable/avatar" />
+
+        <TextView
+            android:id="@+id/username_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_margin="4dp"
+            android:layout_toRightOf="@id/profilepic"
+            android:layout_centerVertical="true"
+            android:text="Title"
+            android:textColor="#333" />
+        
+        <TextView
+            android:id="@+id/date_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="23.23.2013"
+            android:textColor="#333" />
+                
+    </RelativeLayout>
+    
+    <ImageView 
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl"
+        android:src="@drawable/bg"
+        android:adjustViewBounds="true"/>   
+    
+    
+    <LinearLayout android:id="@+id/rl1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image"
+        android:padding="6dp" >
+        
+        <TextView 
+            android:id="@+id/desc_txt"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:textColor="#333"
+            android:text="sad dasda ddsa dj oijoij oj iji o ikadasd ksak odpaks opkdopask poksa pdoksapo kdpoakdposkd opkas pokop dksaop kdpj oj oij iojio jioj oijoi joij ojoijoi jioj ioj oij oijo joijoi."/>
+        
+        <RelativeLayout 
+            android:id="@+id/star_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/star">
+            
+            <ImageView android:id="@+id/starimg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/star" />
+            
+            <TextView android:id="@+id/stars_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:text="150"
+                android:layout_marginTop="33dp"
+                android:layout_centerHorizontal="true"/>
+            
+        </RelativeLayout>
+        
+    </LinearLayout>
+    
+
+</RelativeLayout>

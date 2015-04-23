@@ -1,0 +1,52 @@
+<resources>
+
+    
+   	<style name="Theme.MyTheme" parent="Theme.AppCompat">
+        
+     <!--    <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarker</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item> -->
+        
+        <item name="colorControlNormal">#858585</item>
+    	<item name="colorControlActivated">#1ea5ff</item>
+    	<item name="colorControlHighlight">#1ea5ff</item>
+        
+    </style>
+    
+   	<style name="Normal" parent="Widget.AppCompat.EditText">
+   	    
+   	    <item name="colorAccent">#858585</item>
+        <item name="colorControlNormal">#858585</item>
+    	<item name="colorControlActivated">#1ea5ff</item>
+    	<item name="colorControlHighlight">#1ea5ff</item>
+   	    
+   	</style>
+   	
+   	<style name="Error" parent="Widget.AppCompat.EditText">
+   	    
+   	    <item name="colorAccent">#f34336</item>
+        <item name="colorControlNormal">#f34336</item>
+    	<item name="colorControlActivated">#f34336</item>
+    	<item name="colorControlHighlight">#f34336</item>
+   	    
+   	</style>
+    
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+</resources>

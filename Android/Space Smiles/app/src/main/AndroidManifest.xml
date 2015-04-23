@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="space.apps.space_smiles"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="13"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="Space Smiles"
+        android:theme="@style/Theme.MyTheme" >
+        <activity
+            android:name="space.apps.space_smiles.Login"
+            android:label="Space Smiles" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="space.apps.space_smiles.Register"
+            android:label="Sign Up" >
+        </activity>
+        <activity
+            android:name="space.apps.space_smiles.Homepage"
+            android:label="Space Smiles" >
+        </activity>
+        <activity
+            android:name="space.apps.space_smiles.User_Home"
+            android:label="Space Smiles"
+            android:configChanges="orientation" >
+        </activity>
+        <activity
+            android:name="space.apps.space_smiles.Image_Description"
+            android:label="Post Picture"
+            android:configChanges="orientation" >
+        </activity>        
+    </application>
+
+</manifest>
