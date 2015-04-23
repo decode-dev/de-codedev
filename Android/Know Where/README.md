@@ -10,3 +10,5 @@ If they give "Right Answer" the information about the picture will be displayed.
 
 Since it is somewhat difficult we even have added the "Tutorial" so that they can accustom themselves with the Satellite Pictures.
 
+# If you are developer then you can even make some code changes if it is required.
+And also can send the pull requests to the repository.
