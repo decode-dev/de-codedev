@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/lvlexpimg2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:src="@drawable/exp_img_aw" 
+        android:contentDescription="@string/cd_lvlexp_img2"/>
+
+    <EditText
+        android:id="@+id/plntxt10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lvlexpimg2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:ems="10" 
+        android:inputType="text"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:background="#00000000"
+        android:cursorVisible="false"
+        android:clickable="false"
+        android:gravity="center_horizontal"
+        android:text="@string/qsn1"/>
+
+    <EditText
+        android:id="@+id/multxt10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/chkbtn10"
+        android:layout_alignRight="@+id/lvlexpbtn2"
+        android:layout_below="@+id/plntxt10"
+        android:layout_marginTop="23dp"
+        android:ems="10"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/lvlexpbtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/chkbtn10"
+        android:layout_alignBottom="@+id/chkbtn10"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:minWidth="99dp"
+        android:text="@string/lvlchanger" />
+
+    <Button
+        android:id="@+id/chkbtn10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="17dp"
+        android:minWidth="99dp"
+        android:text="@string/chck" />
+
+</RelativeLayout>

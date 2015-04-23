@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    >
+
+    <EditText
+        android:id="@+id/plntxt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/chkbtn1"
+        android:layout_alignRight="@+id/lvlesybtn1"
+        android:layout_below="@+id/lvlesyimg1"
+        android:layout_marginTop="22dp"
+        android:ems="20"
+        android:scrollHorizontally="true"
+        android:text="@string/qsn1" 
+        android:background="#00000000"
+        android:gravity="center_horizontal"
+        android:focusableInTouchMode="false"
+        android:inputType="text"
+        android:focusable="false"/>
+
+    <Button
+        android:id="@+id/lvlesybtn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="26dp"
+        android:layout_marginRight="23dp"
+        android:minWidth="99dp"
+        android:text="@string/lvlchanger"
+         />
+
+    <ImageView
+        android:id="@+id/lvlesyimg1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:contentDescription="@string/cd_lvlesy_img1"
+        android:src="@drawable/esy_img_tm" />
+
+    <EditText
+        android:id="@+id/multxt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/plntxt1"
+        android:layout_alignRight="@+id/plntxt1"
+        android:layout_below="@+id/plntxt1"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/chkbtn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/lvlesybtn1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="19dp"
+        android:minWidth="99dp"
+        android:text="@string/chck" />
+
+</RelativeLayout>

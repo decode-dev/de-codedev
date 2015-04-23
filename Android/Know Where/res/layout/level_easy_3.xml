@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    >
+
+    <EditText
+        android:id="@+id/multxt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/chkbtn3"
+        android:layout_alignRight="@+id/lvlesybtn3"
+        android:layout_below="@+id/plntxt3"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:inputType="textMultiLine" />
+
+    <ImageView
+        android:id="@+id/lvlesyimg3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:contentDescription="@string/cd_lvlesy_img3"
+        android:cropToPadding="true"
+        android:src="@drawable/esy_img_et" />
+
+    <EditText
+        android:id="@+id/plntxt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/multxt3"
+        android:layout_below="@+id/lvlesyimg3"
+        android:layout_marginTop="25dp"
+        android:ems="15"
+        android:text="@string/qsn1" 
+        android:gravity="center_horizontal"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:background="#00000000"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/lvlesybtn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="17dp"
+        android:minWidth="99dp"
+        android:text="@string/lvlchanger" />
+
+    <Button
+        android:id="@+id/chkbtn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lvlesybtn3"
+        android:layout_alignBottom="@+id/lvlesybtn3"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="22dp"
+        android:minWidth="99dp"
+        android:text="@string/chck" />
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    tools:context="app.knowwhere.MainActivity"							>
+
+    <Button
+        android:id="@+id/lbtn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="81dp"
+        android:minWidth="99dp"
+        android:text="@string/lbtn1" />
+
+    <Button
+        android:id="@+id/lbtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lbtn1"
+        android:layout_below="@+id/lbtn1"
+        android:layout_marginTop="24dp"
+        android:minWidth="99dp"
+        android:text="@string/lbtn2" />
+
+    <Button
+        android:id="@+id/lbtn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lbtn2"
+        android:layout_below="@+id/lbtn2"
+        android:layout_marginTop="24dp"
+        android:minWidth="99dp"
+        android:text="@string/lbtn3" />
+
+    <EditText
+        android:id="@+id/lvlscrtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/lvlsctxt"
+        android:typeface="sans" 
+        android:gravity="center_horizontal"
+        android:background="#00000000"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:src="@drawable/hmi4" 
+        android:contentDescription="@string/hmi4"/>
+
+    <EditText
+        android:id="@+id/hmimltxt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_alignRight="@+id/imageView1"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:inputType="textMultiLine" 
+        android:cursorVisible="false"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:background="#00000000"/>
+
+    <Button
+        android:id="@+id/hmibtn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/hmimltxt4"
+        android:layout_marginBottom="18dp"
+        android:minWidth="99dp"
+        android:text="@string/lvlchanger" />
+
+</RelativeLayout>

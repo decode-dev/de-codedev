@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/lvlesyimg4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:contentDescription="@string/cd_lvlmed_img1"
+        android:src="@drawable/med_img_il" />
+
+    <Button
+        android:id="@+id/lvlmedbtn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="27dp"
+        android:layout_marginRight="24dp"
+        android:minWidth="99dp"
+        android:text="@string/lvlchanger" />
+
+    <EditText
+        android:id="@+id/multxt5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/chkbtn5"
+        android:layout_alignRight="@+id/lvlmedbtn1"
+        android:layout_below="@+id/plntxt5"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/chkbtn5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lvlmedbtn1"
+        android:layout_alignBottom="@+id/lvlmedbtn1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="32dp"
+        android:text="@string/chck" />
+
+    <EditText
+        android:id="@+id/plntxt5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lvlesyimg4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/qsn2"
+        android:cursorVisible="false" 
+        android:clickable="false"
+        android:background="#00000000"
+        android:gravity="center_horizontal"
+        android:focusable="false"
+        android:focusableInTouchMode="false"/>
+
+</RelativeLayout>

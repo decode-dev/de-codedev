@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <EditText
+        android:id="@+id/cdtxt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:ems="10"
+        android:inputType="textMultiLine" 
+        android:cursorVisible="false"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:background="#00000000"/>
+
+    <EditText
+        android:id="@+id/cdtxt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/cdtxt1"
+        android:layout_below="@+id/cdtxt1"
+        android:layout_marginTop="26dp"
+        android:ems="10" 
+        android:inputType="text"
+        android:cursorVisible="false"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:background="#00000000">
+
+        
+    </EditText>
+
+    <EditText
+        android:id="@+id/cdtxt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/cdtxt2"
+        android:layout_below="@+id/cdtxt2"
+        android:layout_marginTop="38dp"
+        android:ems="10" 
+        android:inputType="text"
+        android:cursorVisible="false"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:background="#00000000"/>
+
+    <EditText
+        android:id="@+id/cdtxt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/cdtxt3"
+        android:layout_below="@+id/cdtxt3"
+        android:layout_marginTop="38dp"
+        android:ems="10" 
+        android:inputType="text"
+        android:cursorVisible="false"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:background="#00000000"/>
+
+    <EditText
+        android:id="@+id/cdtxt5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/cdtxt4"
+        android:layout_below="@+id/cdtxt4"
+        android:layout_marginTop="44dp"
+        android:ems="10" 
+        android:inputType="text"
+        android:cursorVisible="false"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:background="#00000000"/>
+
+</RelativeLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/lvlmedimg4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:contentDescription="@string/cd_lvlmed_img4"
+        android:src="@drawable/med_img_dn" 
+        />
+
+    <EditText
+        android:id="@+id/multxt8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/chkbtn8"
+        android:layout_alignRight="@+id/lvlmedbtn4"
+        android:layout_below="@+id/plntxt8"
+        android:layout_marginTop="29dp"
+        android:ems="10"
+        android:inputType="textMultiLine" >
+
+        
+    </EditText>
+
+    <Button
+        android:id="@+id/chkbtn8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lvlmedbtn4"
+        android:layout_alignBottom="@+id/lvlmedbtn4"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="34dp"
+        android:minWidth="99dp"
+        android:text="@string/chck" />
+
+    <Button
+        android:id="@+id/lvlmedbtn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="17dp"
+        android:layout_marginRight="26dp"
+        android:minWidth="99dp"
+        android:text="@string/lvlchanger" />
+
+    <EditText
+        android:id="@+id/plntxt8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lvlmedimg4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:inputType="text" 
+        android:text="@string/qsn2"
+        android:cursorVisible="false"
+        android:clickable="false"
+        android:background="#00000000"
+        android:gravity="center_horizontal"
+        android:focusable="false"
+        android:focusableInTouchMode="false"/>
+
+</RelativeLayout>
