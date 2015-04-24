@@ -9,7 +9,7 @@ And also can make them as "Post Cards", and share the link with there friends an
 Even we are planning to introduce a customized Background where they can choose any background 
 for the Picture from the available Backgrounds and their "Custom Background".
 
-We will be also be developing this application for Windows and Apple Platforms.
+We will be also be developing this application for Windows and Apple Platforms ASAP.
 
 # The Android App is built by using the Local System IP Address so people who want to fork the Project, should first change the "Network Address" and then start the 'Debugging'.
 
