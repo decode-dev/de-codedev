@@ -14,8 +14,6 @@ Will be adding some custom Applications on Android which I find intersting.
 Projects will be updated time2time.
 
 
-
-
 #Clone or fork it?
 Well, should I clone or fork it? The question is, are you going to contribute to the project (which you're encouraged to do by the way)? If not, then you only need to clone it.But
 
